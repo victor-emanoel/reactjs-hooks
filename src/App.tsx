@@ -1,5 +1,3 @@
 export function App() {
-  return (
-    <>React.js Hooks</>
-  )
+  return <>React.js Hooks</>;
 }
