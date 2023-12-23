@@ -8,6 +8,16 @@
   "files": [
     "dist"
   ],
+  "author": "Victor Emanoel <victoremanoeldev@outlook.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor-emanoel/reactjs-hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/victor-emanoel/reactjs-hooks/issues"
+  },
+  "homepage": "https://github.com/victor-emanoel/reactjs-hooks#readme",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
