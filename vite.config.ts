@@ -7,7 +7,7 @@ export default defineConfig({
   base: './',
   build: {
     lib: {
-      entry: path.resolve(__dirname, 'packages/index.ts'),
+      entry: path.resolve(__dirname, 'src/index.ts'),
       fileName: (format) => `index.${format}.js`,
       formats: ['es', 'cjs', 'umd', 'iife'],
       name: 'lib',
