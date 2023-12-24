@@ -21,3 +21,4 @@ coverage
 *.sw?
 .vscode
 dist
+.env
