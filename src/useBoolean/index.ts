@@ -11,11 +11,11 @@ interface IUseBooleanReturn {
 export const useBoolean = (
   initialValue: boolean = false,
 ): IUseBooleanReturn => {
-  const [value, setValue] = React.useState(initialValue);
+  const [value, setValue] = React.useState<boolean>(initialValue);
 
-  const toggle = React.useCallback(() => setValue(!value), [value]);
-  const setFalse = React.useCallback(() => setValue(false), []);
-  const setTrue = React.useCallback(() => setValue(true), []);
+  const toggle = React.useCallback((): void => setValue(!value), [value]);
+  const setFalse = React.useCallback((): void => setValue(false), []);
+  const setTrue = React.useCallback((): void => setValue(true), []);
 
   return { setFalse, setTrue, setValue, toggle, value };
 };
