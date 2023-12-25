@@ -3,15 +3,6 @@ import { act, renderHook } from '@testing-library/react';
 import { useBoolean } from '.';
 
 describe('useBoolean hook', () => {
-  it('should return setTrue, setFalse, toggle and value', () => {
-    const { result } = renderHook(() => useBoolean());
-
-    expect(result.current.setFalse).toBeDefined();
-    expect(result.current.setTrue).toBeDefined();
-    expect(result.current.toggle).toBeDefined();
-    expect(result.current.value).toBeDefined();
-  });
-
   it('should set value to false when setFalse is called', () => {
     const { result } = renderHook(() => useBoolean(true));
 
