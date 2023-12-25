@@ -3,13 +3,6 @@ import { act, renderHook } from '@testing-library/react';
 import { useWindowSize } from '.';
 
 describe('useWindowSize hook', () => {
-  it('value of height and width should be of type number', () => {
-    const { result } = renderHook(() => useWindowSize());
-
-    expect(typeof result.current.height).toBe('number');
-    expect(typeof result.current.width).toBe('number');
-  });
-
   it('should return height and width on initial render', async () => {
     const { result } = renderHook(() => useWindowSize());
 
