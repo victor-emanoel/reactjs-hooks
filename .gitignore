@@ -20,5 +20,4 @@ coverage
 *.sln
 *.sw?
 .vscode
-dist
 .env
