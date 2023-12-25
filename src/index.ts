@@ -1,6 +1,7 @@
 export { useBoolean } from './useBoolean';
 export { useCounter } from './useCounter';
 export { useLocalStorage } from './useLocalStorage';
+export { useMousePosition } from './useMousePosition';
 export { useOnInteractOutside } from './useOnInteractOutside';
 export { usePersistedState } from './usePersistedState';
 export { usePrevious } from './usePrevious';
