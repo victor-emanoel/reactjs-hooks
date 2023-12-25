@@ -5,5 +5,6 @@ export { useMousePosition } from './useMousePosition';
 export { useOnInteractOutside } from './useOnInteractOutside';
 export { usePersistedState } from './usePersistedState';
 export { usePrevious } from './usePrevious';
+export { useRenderCount } from './useRenderCount';
 export { useSessionStorage } from './useSessionStorage';
 export { useWindowSize } from './useWindowSize';
