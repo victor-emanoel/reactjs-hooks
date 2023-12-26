@@ -1,6 +1,7 @@
 export { useBoolean } from './useBoolean';
 export { useCounter } from './useCounter';
 export { useDebounce } from './useDebounce';
+export { useHover } from './useHover';
 export { useIsFirstRender } from './useIsFirstRender';
 export { useLocalStorage } from './useLocalStorage';
 export { useLockBodyScroll } from './useLockBodyScroll';
