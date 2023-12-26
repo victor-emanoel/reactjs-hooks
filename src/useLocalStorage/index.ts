@@ -28,7 +28,7 @@ export const useLocalStorage = (): IUseLocalStorageReturn => {
   };
 
   const set = (key: string, value: any): void => {
-    window.localStorage.setItem(key, value);
+    window.localStorage.setItem(key, JSON.stringify(value));
   };
 
   const remove = (key: string): void => {

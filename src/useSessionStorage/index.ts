@@ -28,7 +28,7 @@ export const useSessionStorage = (): IUseSessionStorageReturn => {
   };
 
   const set = (key: string, value: any): void => {
-    window.sessionStorage.setItem(key, value);
+    window.sessionStorage.setItem(key, JSON.stringify(value));
   };
 
   const remove = (key: string): void => {
