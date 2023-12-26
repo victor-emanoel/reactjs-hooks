@@ -3,6 +3,7 @@ export { useCounter } from './useCounter';
 export { useDebounce } from './useDebounce';
 export { useIsFirstRender } from './useIsFirstRender';
 export { useLocalStorage } from './useLocalStorage';
+export { useLockBodyScroll } from './useLockBodyScroll';
 export { useMousePosition } from './useMousePosition';
 export { useOnInteractOutside } from './useOnInteractOutside';
 export { usePersistedState } from './usePersistedState';
