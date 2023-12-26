@@ -1,5 +1,6 @@
 export { useBoolean } from './useBoolean';
 export { useCounter } from './useCounter';
+export { useDebounce } from './useDebounce';
 export { useIsFirstRender } from './useIsFirstRender';
 export { useLocalStorage } from './useLocalStorage';
 export { useMousePosition } from './useMousePosition';
