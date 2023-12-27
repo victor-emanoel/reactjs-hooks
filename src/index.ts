@@ -1,13 +1,13 @@
 export { useBoolean } from './useBoolean';
 export { useCounter } from './useCounter';
 export { useDebounce } from './useDebounce';
-export { useHover } from './useHover';
 export { useIsFirstRender } from './useIsFirstRender';
 export { useLocalStorage } from './useLocalStorage';
 export { useLockBodyScroll } from './useLockBodyScroll';
 export { useMousePosition } from './useMousePosition';
 export { useOnInteractOutside } from './useOnInteractOutside';
 export { usePersistedState } from './usePersistedState';
+export { usePrefersColorScheme } from './usePrefersColorScheme';
 export { usePrevious } from './usePrevious';
 export { useRenderCount } from './useRenderCount';
 export { useSessionStorage } from './useSessionStorage';
