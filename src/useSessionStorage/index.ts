@@ -1,11 +1,10 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 interface IUseSessionStorageReturn {
-  storage: {
-    clear: () => void;
-    get: <T>(key: string, fallback: T) => T;
-    remove: (key: string) => void;
-    set: (key: string, value: any) => void;
-  };
+  clear: () => void;
+  get: <T>(key: string, fallback: T) => T;
+  includes: (key: string) => boolean;
+  remove: (key: string) => void;
+  set: (key: string, value: any) => void;
 }
 
 export const useSessionStorage = (): IUseSessionStorageReturn => {
@@ -39,5 +38,9 @@ export const useSessionStorage = (): IUseSessionStorageReturn => {
     window.sessionStorage.clear();
   };
 
-  return { storage: { clear, get, remove, set } };
+  const includes = (key: string): boolean => {
+    return !!window.sessionStorage.getItem(key);
+  };
+
+  return { clear, get, includes, remove, set };
 };
