@@ -6,7 +6,6 @@ export { useLocalStorage } from './useLocalStorage';
 export { useLockBodyScroll } from './useLockBodyScroll';
 export { useMousePosition } from './useMousePosition';
 export { useOnClickOutside } from './useOnClickOutside';
-export { useOnHover } from './useOnHover';
 export { usePersistedState } from './usePersistedState';
 export { usePrefersColorScheme } from './usePrefersColorScheme';
 export { usePrevious } from './usePrevious';
