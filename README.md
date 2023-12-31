@@ -13,8 +13,6 @@ import { ... } from 'reactjs-hooks-library';
 
 # Hooks list
 
-> Click on hook name to access the documentation
-
 - [useBoolean](https://github.com/victor-emanoel/reactjs-hooks/tree/main/src/useBoolean/README.md)
 - [useCounter](https://github.com/victor-emanoel/reactjs-hooks/tree/main/src/useCounter/README.md)
 - [useDebounce](https://github.com/victor-emanoel/reactjs-hooks/tree/main/src/useDebounce/README.md)
