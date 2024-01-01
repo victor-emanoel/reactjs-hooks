@@ -1,4 +1,4 @@
-**This project is under development, so we don't recommend installing it at the moment.**
+**This project is under development, so I don't recommend installing this package at the moment.**
 
 # How to use?
 
