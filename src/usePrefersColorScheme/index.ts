@@ -1,11 +1,3 @@
-interface IUsePrefersColorSchemeReturn {
-  isDarkMode: boolean;
-  isLightMode: boolean;
-}
-
-export const usePrefersColorScheme = (): IUsePrefersColorSchemeReturn => {
-  return {
-    isDarkMode: window.matchMedia('(prefers-color-scheme: dark)').matches,
-    isLightMode: window.matchMedia('(prefers-color-scheme: light)').matches,
-  };
+export const usePrefersColorScheme = (mode: 'dark' | 'light'): boolean => {
+  return window.matchMedia(`(prefers-color-scheme: ${mode})`).matches;
 };
