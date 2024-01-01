@@ -1,3 +1,5 @@
+**This project is under development, so we don't recommend installing it at the moment.**
+
 # How to use?
 
 **1 - Install packages**
