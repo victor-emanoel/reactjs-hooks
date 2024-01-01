@@ -15,13 +15,10 @@ export const useSessionStorage = (): IUseSessionStorageReturn => {
       if (storedState) {
         return JSON.parse(storedState);
       } else {
-        if (typeof fallback === 'function') {
-          return fallback();
-        } else {
-          return fallback;
-        }
+        return fallback;
       }
     } catch (error: unknown) {
+      console.error(error);
       return fallback;
     }
   };
